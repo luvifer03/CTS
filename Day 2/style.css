@@ -1,0 +1,66 @@
+
+
+a
+{ text-decoration:none;
+}
+.nav-bar
+{
+ display: block;
+}
+
+.nav-bar ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    display:block;
+}
+
+span{
+    color:black;
+}
+
+
+
+.nav-bar li
+{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    display:inline-block;
+}
+
+
+
+.nav-bar li a{
+    padding:15px 20px;
+    font-size:14px;
+    color:saddlebrown;
+    display: inline-block;
+    outline:0;
+    font-weight:700;
+}
+
+h1{
+    text-align:center;
+    color:cornflowerblue;
+}
+
+b{
+    color: saddlebrown;
+}
+
+
+
+u{
+    color:tomato;
+}
+
+footer {
+	position: fixed;
+	padding: 10px 0;
+	text-align:right;
+	bottom: 0;
+	color:black;
+	width: 100%;
+}
+
