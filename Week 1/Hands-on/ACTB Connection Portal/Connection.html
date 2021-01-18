@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <script type="text/javascript">
+            function calculateResult()
+            {
+                var monthly_rental=0;
+                var cpm=0;
+                var duration=parseInt(document.getElementById("duration").value);
+                if(document.getElementById("scheme1").checked)
+                    cpm=200;
+                else if(document.getElementById("scheme2").checked)
+                    cpm=350;
+                else 
+                    cpm=500;
+                var type=document.getElementById("connectionType").value;
+                if(type=="Pre")
+                {
+                    monthly_rental=75;
+                }
+                else
+                {
+                    monthly_rental=150;
+                }
+                var cost=(duration*cpm)+monthly_rental;
+                var inHtml="The Total Monthly Rental Cost is Rs. "+cost;
+                document.getElementById("result").innerHTML=inHtml;
+                return false;
+            }
+        </script>
+        <style type="text/css" media="all">
+            body{
+                background-color: #EED426;
+            }    
+            h1{
+                color: #006666;
+                font-family: Verdana;
+                text-align: center;
+            }
+            #rentalcost td,th{
+                border: 1px solid;
+            }
+            #rentalcost
+            {
+                border:1px solid;
+            }
+        </style>
+
+    </head>
+    <body >
+       
+            <h1>ACTB Connection Portal</h1>
+        <center>
+            <form onsubmit="return calculateResult()">
+            <table>
+            <tr>
+                <td><label>Customer Name</label></td>
+                <td><input type="text" name="custname" id="custname" value="" placeholder="Enter the customer name" pattern="[A-Za-z/s]+" required=""/></td>
+            </tr>
+            <tr>
+                <td><label>Customer Email</label></td>
+                <td><input type="email" name="email" id="email" value="" placeholder="abc@gmail.com" required/></td>
+            </tr>
+            <tr>
+                <td><label for="Mobile Number">Mobile Number</label></td>
+                <td><input type="text" name="mobile" id="mobile" value="" pattern="[7-9]{1}[0-9]{9}" placeholder="Enter the Mobile Number" required=""/></td>
+            </tr>
+            <tr>
+                <td><label for="Connection Type">Connection Type</label></td>
+                <td><select name="conntype" id="connectionType" required>
+                    <option value="Pre">Pre</option>
+                    <option value="Post">Post</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="Scheme Name">Scheme Name</label></td>
+                <td><input type="radio" name="scheme" id="scheme1" value="Local"/>Local
+                    <input type="radio" name="scheme" id="scheme2" value="STD"/>STD
+                    <input type="radio" name="scheme" id="scheme3" value="FullTalkTime"/>FullTalkTime
+                </td>
+            </tr>
+            <tr>
+                <td><label>Connection Duration</label></td>
+                <td><input type="number" name="duration" id="duration" value="" min=1 max=12 required/></td>
+            </tr>
+            <tr>
+                <td><input type="submit" name="submit" id="submit" value="Connection Bill Amount"></td>
+                <td><input type="reset" name="clear" id="reset" value="Reset"></td>
+            </tr>
+        </table>
+        </form>
+        <div id="result" name="result"></div>
+        <label for="Rental Cost Table">Rental Cost Table</label>
+        <table id="rentalcost">
+            <tr>
+                <th>Connection Type</th>
+                <th>Call Limit</th>
+                <th>Monthly Rental</th>
+            </tr>
+            <tr>
+                <td>Pre</td>
+                <td>500</td>
+                <td>75</td>
+            </tr>
+            <tr>
+                <td>Post</td>
+                <td>Unlimited</td>
+                <td>150</td>
+            </tr>
+        </table>
+    </center>
+    </body>
+</html>
