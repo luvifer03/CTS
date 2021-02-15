@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>
+                Academic information
+            </legend>
+            <p><label for="degree">Degree</label>
+                <select id="degree-name">
+                    <option value="select">---Select your Degree----</option>
+                    <option value="BTECH">BTECH</option>
+                    <option value="MBA">MBA</option>
+                    <option value="MTECH">MTECH</option>
+
+                </select></p>
+                <p>
+                    <label for="sId">Student ID</label>
+                    <input type="text" id="sId">
+                </p>
+                <p>
+                    Classes Attended
+                    <select id="classes" multiple>
+                        <option value="maths">Mathematics</option>
+                        <option value="geography">Geography</option>
+                        <option value="Science">Science</option>
+                    </select>
+                </p>
+        </fieldset>
+        <fieldset>
+            <legend>
+                Personal Details
+            </legend>
+            First name
+            <input type="text" id="fName">
+            <br>
+            Last Name
+            <input type="text" id="lName">
+            <br>
+            Gender     
+            <label for="Male">Male</label>
+            <input type="radio" id="Male">
+            <label for="female">Female</label>
+            <input type="radio" id="female">
+            <br>
+            Email
+            <input type="email" id="email">
+
+        </fieldset>
+        <br>
+        <textarea row="40" cols="70">TERMS AND CONDITIONS..</textarea>
+        <br>
+        <button id="submit">Send Form</button>
+        <button id="reset">Clear Form</button>
+    </form>
+</body>
+</html>

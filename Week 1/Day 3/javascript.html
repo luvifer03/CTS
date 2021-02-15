@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    <pre>     
+               *     *
+               * *****  
+               *     *
+               *     *
+
+    </pre>
+    <h1> Name + color changer</h1>
+    <p>
+        My Name:
+    </p>
+    <input type="text" name="name" id="name" >
+    <button id="submit" onclick="myFunction()">Pink</button>
+    <button  onfocus="myFunction2()">Yellow</button>
+    <div id="result">
+
+    </div>
+
+
+    <script>
+        function myFunction(){
+            var x = document.getElementById("name").value;
+            var y = x.toUpperCase();
+            document.getElementById("name").value= y ;
+            document.getElementById("name").style.background = "pink";
+            alert("color changed to pink");
+
+
+        }
+
+        function myFunction2(){
+            alert("color changed to yellow");
+            document.getElementById("name").style.background = "yellow";
+            document.getElementById("name")
+        }
+    </script>
+</body>
+</html>

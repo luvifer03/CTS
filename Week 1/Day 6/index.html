@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 6</title>
+</head>
+<body>
+    <h1>
+        Concepts taught
+    </h1>
+    <ol>
+        <li>
+            Arrays
+        </li>
+        <li>
+            NaN fuunction: it return false when a number is passes through the function
+        </li>
+        <li>
+            sort() - fruits.sort(function(a,b){return a-b});
+            <br/>
+            for alphabets directly write sort
+        </li>
+        <li>
+            entries()
+        </li>
+        <li>Operators and variables in Js</li>
+    </ol>
+    <h1>
+        Ascending
+    </h1>
+    <p id="ascending"></p>
+    <h1>
+        Descending
+    </h1>
+    <p id="descending"></p>
+    <h1>letter</h1>
+    <p id="letter"></p>
+    <p id="helloWorld"></p>
+    <p id="operator"></p>
+
+    <h1>Form validation</h1>
+    <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+    Name: <input type="text" name="fname">
+    <input type="submit" value="submit">
+    </form>
+
+<script>
+    var fruits = [10,20,11,5,9,2,67,55,100];
+    fruits.sort(function(a,b){return a-b});
+
+    var f = fruits.entries();
+    document.getElementById("helloWorld").innerHTML = "Hello All";
+
+    for(x of f) {
+    document.getElementById("ascending").innerHTML += x + "<br>";
+    }
+
+    var fruits_1 = [10,20,11,5,9,2,67,55,100];
+    fruits_1.sort(function(a,b){return b-a});
+
+    var c = fruits_1.entries();
+    for(x of c) {
+    document.getElementById("descending").innerHTML += x + "<br>";
+    }
+
+    var real_fruits = ["banana", "orange", "apple"];
+    real_fruits.reverse();
+
+    var r_f = real_fruits.entries();
+    document.getElementById("letter").innerHTML = "helloworld";
+    document.getElementById("letter").innerHTML = real_fruits;
+
+    var x =10;
+    x+=5;
+
+    document.getElementById("operator").innerHTML = x;
+    
+    function validateForm(){
+        var z =document.forms["myForm"]["fname"].value;
+
+        if ( z == ""){
+            alert("Name must be filled out");
+            return false;
+        }
+    }
+
+</script>
+</body>
+</html>

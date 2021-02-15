@@ -7,7 +7,7 @@
             {
                 var monthly_rental=0;
                 var cpm=0;
-                var duration=parseInt(document.getElementById("duration").value);
+                var duration=(document.getElementById("duration").value);
                 if(document.getElementById("scheme1").checked)
                     cpm=200;
                 else if(document.getElementById("scheme2").checked)
@@ -56,7 +56,7 @@
             <table>
             <tr>
                 <td><label>Customer Name</label></td>
-                <td><input type="text" name="custname" id="custname" value="" placeholder="Enter the customer name" pattern="[A-Za-z/s]+" required=""/></td>
+                <td><input type="text" name="custname" id="custname" value="" placeholder="Enter the customer name"  required=""/></td>
             </tr>
             <tr>
                 <td><label>Customer Email</label></td>
