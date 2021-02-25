@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+		</list>
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\aashi\Downloads\GoGoParcelService"/>
+			<item value="C:\Cognizant_Files\ADM20AJ011-main"/>
+			<item value="C:\Cognizant_Files\Spring_CC"/>
+			<item value="C:\Cognizant_Files\Cognizant_Gen_C_Learn-master"/>
+			<item value="C:\Cognizant_Files\Cognizant_Gen_C_Learn-master\Java Basics Learning Path\ICT\Electricity Bill"/>
+			<item value="C:\Users\aashi\Desktop\ElectricityBill_ko"/>
+			<item value="C:\Users\aashi\Desktop\ElectricityBill_knockout"/>
+			<item value="C:\Cognizant_Files\Cognizant\Stage 1 ICT\ElectricityBill"/>
+			<item value="C:\Cognizant_Files\Cognizant_Gen_C_Learn-master\Java Basics Learning Path\ICT\Rainfall Report Automation"/>
+			<item value="C:\Users\aashi\Desktop\CTS\Java\Rainfall Report Automation"/>
+			<item value="C:\Users\aashi\Downloads\Cognizant_Files\Cognizant\Stage 1 ICT\ElectricityBill"/>
+			<item value="C:\Users\aashi\Downloads\Cognizant_Files\Cognizant\Stage 1\Java Mandatory HandsOns\Travel Agency (1)"/>
+			<item value="C:\Users\aashi\Downloads\Insurance"/>
+			<item value="C:\Users\aashi\Downloads\Cognizant_Files\ADM20AJ011-main (2)\ADM20AJ011-main\ADM20AJ011"/>
+			<item value="C:\Users\aashi\Downloads\Cognizant_Files\ADM20AJ011-main (2)\ADM20AJ011-main\ADM20AJ011\Cognizant"/>
+			<item value="C:\Users\aashi\Downloads\Cognizant_Files\Highest Placement"/>
+			<item value="C:\Users\aashi\Downloads\Cognizant_Files\BankAccountDetails"/>
+			<item value="C:\Users\aashi\Desktop\CTS_CC\Week 1"/>
+		</list>
+	</section>
+</section>

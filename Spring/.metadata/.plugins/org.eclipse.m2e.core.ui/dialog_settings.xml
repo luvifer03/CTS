@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\aashi\Desktop\CTS\Spring\Spring-AOP\src\main\resources\context.xml"/>
+			<item value="C:\Users\aashi\Desktop\CTS\Spring\EMS\src\main\java\com\cognizant\ems\dao\EmployeeDAOImpl.java"/>
+			<item value="C:\Users\aashi\Desktop\CTS\Spring\AnnotationsEx1\src\main\java\com\cognizant\spring\Main.java"/>
+			<item value="C:\Users\aashi\Desktop\CTS\Spring\Sum\pom.xml"/>
+			<item value="C:\Users\aashi\Desktop\CTS\Spring\EMSTry"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.aashish"/>
+			<item value="com.cognizant"/>
+			<item value="com.cognizaant"/>
+			<item value="com.cognizant.com"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="Aspetj"/>
+			<item value="Spring-AOP"/>
+			<item value="AnnotationsEx2"/>
+			<item value="AnnotationsEx1"/>
+			<item value="Sum"/>
+			<item value="EMS"/>
+			<item value="try1"/>
+			<item value="EMSTry"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

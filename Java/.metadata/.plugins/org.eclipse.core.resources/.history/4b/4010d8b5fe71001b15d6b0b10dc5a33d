@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Cognizant_Gen_C_Learn-master">
+        <property name="context-root" value="Cognizant_Gen_C_Learn-master"/>
+        <property name="java-output-path" value="/Cognizant_Gen_C_Learn-master/build/classes"/>
+    </wb-module>
+</project-modules>

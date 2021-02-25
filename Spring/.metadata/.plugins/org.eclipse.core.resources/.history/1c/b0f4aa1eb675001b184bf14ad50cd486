@@ -1,0 +1,5 @@
+package com.cognizant.ems.entity;
+
+public class Employee {
+
+}

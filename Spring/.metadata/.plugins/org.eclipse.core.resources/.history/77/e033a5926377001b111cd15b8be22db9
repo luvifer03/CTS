@@ -1,0 +1,18 @@
+package com.aashish.spring;
+
+import org.aspectj.lang.ProceedingJoinPoint;
+
+public class Logger {
+	public void log() {
+		System.out.println("LOG: Going to perform some logic before");
+	}
+	public void logAroundAllMethods(ProceedingJoinPoint pjp) throws Throwable 
+	{
+	    System.out.println("****LoggingAspect.logAroundAllMethods() - Before method call");
+	     
+	    pjp.proceed();
+	     
+	    System.out.println("****LoggingAspect.logAroundAllMethods() - After method call");
+	}
+
+}

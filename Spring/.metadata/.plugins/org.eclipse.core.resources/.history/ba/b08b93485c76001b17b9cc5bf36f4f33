@@ -1,0 +1,32 @@
+package com.cognizant.spring;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Product {
+	@Value("101")
+	private int productId;
+	
+	@Value("Mobile")
+	private String productName;
+	public int getProductId() {
+		return productId;
+	}
+	public void setProductId(int productId) {
+		this.productId = productId;
+	}
+	public String getProductName() {
+		return productName;
+	}
+	public void setProductName(String productName) {
+		this.productName = productName;
+	}
+	@Override
+	public String toString() {
+		return "Product [productId=" + productId + ", productName=" + productName + "]";
+	}
+	
+	
+
+}

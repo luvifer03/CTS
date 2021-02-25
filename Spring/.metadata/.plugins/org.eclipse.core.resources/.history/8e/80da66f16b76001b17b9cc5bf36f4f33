@@ -1,0 +1,24 @@
+package com.cognizant.spring;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class AppConfig {
+	@Bean ///without it bean wont work
+	public BeanA getBeanA() {
+		BeanA bean = new BeanA();
+		bean.setName("Aashish");
+		return bean;
+		
+	}
+	
+	@Bean
+	public BeanB getBeanB() {
+		BeanB bean = new BeanB("Solanky");
+		
+		return bean;
+		
+	}
+
+}

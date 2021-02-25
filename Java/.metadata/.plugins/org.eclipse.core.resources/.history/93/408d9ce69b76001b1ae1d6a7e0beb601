@@ -1,0 +1,14 @@
+package com.spring.main;
+
+import com.spring.exception.InvalidParcelWeightException;
+import com.spring.service.CourierService;
+
+@SuppressWarnings("unused")
+public class Driver {
+
+	public static void main(String[] args) {
+	    
+		
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.cognizant.spring.bank;
+
+public class BankOperations {
+
+}
