@@ -5,12 +5,12 @@ final class banks{
 }
 
 // this wont work
-public class finaltest extends banks{
+public class finaltest {
 
 	public static void main(String[] args) {
 		
-		finaltest obj= new finaltest();
-		obj.bankaccount();
+		//finaltest obj= new finaltest();
+		//obj.bankaccount(); this wont run cuz of final keyword
 		
 	}
 
